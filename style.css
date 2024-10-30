@@ -1,0 +1,143 @@
+body{
+margin: 0;
+font-family: 'Times nNw Roman',Times,serif;
+background-color: antiquewhite;
+
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(109, 59, 202);
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: right;
+}
+.navbar a{
+    color:white;
+    padding: 14px 20px;
+    text-decoration:none;
+    display: inline-block;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    margin: 10px;
+}
+.header-text{
+    max-width: 50%;
+}
+.header-text h1{
+    font-size: 48px;
+    margin: 0;
+}
+.header-text p{
+    font-size: 18px;
+    color:#666;
+    margin: 20px 0;
+}
+.info-section{
+background-color: blue;
+color: white;
+padding: 50px 0;
+text-align: center;
+}
+.info-section .info{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1-5;
+}
+.info-section h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.info-section p {
+    font-size: 16px;
+    color: #fcfbfb;
+}
+.header2{
+    font-size: 72px;
+    color: lightslategray;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.kotak{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.piala{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+}
+.piala img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+.piala-text{
+    margin-left: 20px;
+    text-align: left;
+}
+.piala-text h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.piala-text p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.about-me {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+}
+.tentangkami{
+    font-size: 15px;
+    text-align: left;
+
+}
+.teacher{
+    text-align: center;
+    margin: 100px;
+    font-size: 20px;
+    
+
+}
+.imgguru{
+    padding: 20px;
+    display: flex;
+    gap: 260px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.peluangkarir{
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+.peluang{
+    display: flex;
+    margin: 50px;
+}
+.industri{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    gap: 40px;
+    margin-left: 20px;
+}
+.imgindustri{
+    margin: 75px;
+}
